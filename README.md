@@ -76,7 +76,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations
-~~~
+~~~python
 org 100h
 
 MOV AX, 4D33H;
@@ -101,8 +101,8 @@ DIV AX;
 
 ret
 ~~~~
-
-~~~
+## Program For Logical Operations
+~~~python
 org 100h
 MOV AX,2345H;
 MOV BX,2134H;
